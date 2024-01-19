@@ -12,6 +12,23 @@
   )
 
 
+  (sheet (at 31.75 50.8) (size 25.4 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 521afbfd-a43d-40d3-b71e-52d74f5665e8)
+    (property "Sheetname" "HubController" (at 31.75 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HubController.kicad_sch" (at 31.75 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USBHUB"
+        (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3" (page "3"))
+      )
+    )
+  )
+
   (sheet (at 25.4 119.38) (size 21.59 35.56) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

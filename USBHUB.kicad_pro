@@ -330,6 +330,10 @@
     [
       "89bccf95-d24c-4f85-a6de-24b64e8fde95",
       "PowerDelivery"
+    ],
+    [
+      "521afbfd-a43d-40d3-b71e-52d74f5665e8",
+      "HubController"
     ]
   ],
   "text_variables": {}

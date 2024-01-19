@@ -12,3 +12,6 @@ https://jlcpcb.com/partdetail/CypressSemicon-CYPD317724LQXQ/C2959321
 #### SI3421DV-T1-GE3
 https://jlcpcb.com/partdetail/VishayIntertech-SI3421DV_T1GE3/C144884
 
+### Zener Diode for PD controller
+https://jlcpcb.com/partdetail/Goodwork-BZT52C12/C2932744
+
