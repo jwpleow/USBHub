@@ -1,7 +1,7 @@
 # Notes
 https://www.youtube.com/watch?v=W13HNsoHj7A USB-C Power Delivery Hardware Design - Phil's Lab #104
 https://www.ti.com/lit/wp/slyy109b/slyy109b.pdf?ts=1704425741746 A Primer on USB Type-C and USBPower Delivery Applications and Requirements
-
+https://github.com/DynamixYANG/highendusb3hub
 
 # Parts check: 
 https://www.pcbway.com/components/
@@ -30,8 +30,9 @@ Pick correct output voltage & output current
 
 Go for higher switching frequencies -> >1MHz?
 
-# USB C Female Receptacle  U263-241N-4BVC04  https://jlcpcb.com/partdetail/XkbConnectivity-U263_241N4BVC04/C2689739
-
+# USB C Female Receptacle  
+Vertical 24P 5A: https://jlcpcb.com/partdetail/gswitch-GT_USB7052/C963223  (footprint in kicad is almost same as USB_C_Receptacle_GCT_USB4115-03-C)
+Normal Surface Mount: https://jlcpcb.com/partdetail/Molex-1054500101/C134092
 
 
 # USB C controllers

@@ -1,5 +1,7 @@
 
 
+#### USB C Female connector GT-USB7052
+https://jlcpcb.com/partdetail/gswitch-GT_USB7052/C963223
 
 # Power
 
@@ -13,5 +15,6 @@ https://jlcpcb.com/partdetail/CypressSemicon-CYPD317724LQXQ/C2959321
 https://jlcpcb.com/partdetail/VishayIntertech-SI3421DV_T1GE3/C144884
 
 ### Zener Diode for PD controller
+BZT52C12
 https://jlcpcb.com/partdetail/Goodwork-BZT52C12/C2932744
 
