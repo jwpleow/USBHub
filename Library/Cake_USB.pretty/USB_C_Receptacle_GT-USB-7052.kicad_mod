@@ -1,11 +1,13 @@
-(footprint "GT-USB-7052" (version 20221018) (generator pcbnew)
+(footprint "USB_C_Receptacle_GT-USB-7052" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "USB TYPE C, VERT RCPT PCB, SMT, https://www.dg-switch.com/uploads/soft/200510/GT-USB-7052.pdf")
+  (tags "USB C Type-C Receptacle SMD")
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.54 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp a626e533-9206-4fd2-8c43-13b54e383b90)
   )
-  (fp_text value "GT-USB-7052" (at 0 5.08 unlocked) (layer "F.Fab") hide
+  (fp_text value "USB_C_Receptacle_GT-USB-7052" (at 0 5.08 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ce480e39-c610-48ca-ad33-77b92a0e8ab4)
   )

@@ -75,3 +75,6 @@ VL822 = QFN88 variant features integrated 10Gbps Muxes for the Upstream Facing P
 ---> GL3523-OTY30 -  very available! (5Gbps) ($2, 2k stock on jlcpcb)
 
 TUSB8044A (5Gbps) - Documentation is clearly the best https://www.ti.com/lit/ds/symlink/tusb8044a.pdf?ts=1704464901395&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fusb%252Fhubs-controllers%252Fproducts.html (jlcpcb no stock $11, pcbway available $12)
+
+CYUSB3304-68LTXC (2 pieces in stock on jlcpcb, $4.60)
+https://jlcpcb.com/partdetail/CypressSemicon-CYUSB330468LTXC/C462531 

@@ -3,7 +3,6 @@
 #### USB C Female connector GT-USB7052
 https://jlcpcb.com/partdetail/gswitch-GT_USB7052/C963223
 
-# Power
 
 ### Power delivery controller - CYPD3177-24LQXQ
 https://au.mouser.com/datasheet/2/196/CYPR_S_A0012903526_1-3004964.pdf
@@ -18,3 +17,6 @@ https://jlcpcb.com/partdetail/VishayIntertech-SI3421DV_T1GE3/C144884
 BZT52C12
 https://jlcpcb.com/partdetail/Goodwork-BZT52C12/C2932744
 
+### Red LED for PD fault
+KT-0603R
+https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
