@@ -1,4 +1,4 @@
-23461440429087362
+23463146192039014
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2497,6 +2497,13 @@ CYPD3177_24LQx_QFN-24_EP_4x4_Pitch0.5mm
 
 0
 40
+25
+Cake_USB
+USB_C_Receptacle_GT-USB-7052
+USB TYPE C, VERT RCPT PCB, SMT, https://www.dg-switch.com/uploads/soft/200510/GT-USB-7052.pdf
+USB C Type-C Receptacle SMD
+0
+28
 25
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
