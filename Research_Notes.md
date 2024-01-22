@@ -9,14 +9,14 @@ https://jlcpcb.com/parts/
 
 ## Find Symbols + Footprints
 https://componentsearchengine.com/
+https://easyeda.com/
 
-
-# STM32F042G6U6 https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F042G6U6/C961597
+# STM32
+STM32F042G6U6 https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F042G6U6/C961597
 QFN package - more complicated :0?
 3.3V <- Needs a regulator from USB, ~100mA?
 USB natively on board!
 CAN timers 
-
 
 # DC converter
 harder to route than an LDO regulator
@@ -30,48 +30,59 @@ Pick correct output voltage & output current
 
 Go for higher switching frequencies -> >1MHz?
 
-# USB C Female Receptacle  
-Vertical 24P 5A: https://jlcpcb.com/partdetail/gswitch-GT_USB7052/C963223  (footprint in kicad is almost same as USB_C_Receptacle_GCT_USB4115-03-C)
-Normal Surface Mount: https://jlcpcb.com/partdetail/Molex-1054500101/C134092
 
+# USB
 
-# USB C controllers
-## PD controller
-Note: DRP - Dual-role power can operate as sink or source
-TPS65987D - 20V 5A (the classic recommendation) (available @ $5.36 @ pcbway, none on jlcpcb)
-TPS25730
-#### ---> CYPD3177-24LQXQ (super common) (available on both pcbway $3 & jlcpcb $1.25)
-https://au.mouser.com/datasheet/2/196/CYPR_S_A0012903526_1-3004964.pdf
-https://www.infineon.com/dgdl/Infineon-CY4533_EZ-PD_Barrel_Connector_Replacement_EVK_Guide-UserManual-v01_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f013aac1887
-Needs MOSFET:
-DMP3013SFV-7 ? used in https://github.com/wolfgangfriedrich/P42-USB-C-PD-Sink/blob/master/Design/ver4/USBC-Sink_ver4.sch (looks better)
-SI3421DV ? used in https://github.com/ElectronicCats/Cat-Sink/blob/main/Hw/CatSink/CatSink.kicad_sch
+## USB Type-C Female Receptacle  
 
-Calculate power dissipation: http://www.mcmanis.com/chuck/Robotics/projects/esc2/FET-power.html
-(We are 20V ~2.5A worse case ~60deg => Rds(on) = 0.09), P = I^2 R = 0.5625W dissipation. rating is 0.94W.???
+| Part Name | Description | JLCPCB | Notes |
+| -  | - | - | - |
+| GT-USB-7052 | USB3.1 24P 5A Type C Receptacle Vertical | [JLCPCB](https://jlcpcb.com/partdetail/gswitch-GT_USB7052/C963223) | |
+| Molex 1054500101 | USB3.2 24P 5A Type C Surface Mount | [JLCPCB](https://jlcpcb.com/partdetail/Molex-1054500101/C134092) | |
+
+## Type-C PD controller
+| Part Name | Description | JLCPCB | Datasheet | Notes |
+| -  | - | - | - | - |
+| CYPD3177-24LQXQ | USB Type-C and PD controller. Max 20V/5A | [JLCPCB](https://jlcpcb.com/partdetail/CypressSemicon-CYPD317724LQXQ/C2959321) | [Datasheet](https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad) | Lots in stock! [Evaluation Kit Datasheet](https://www.infineon.com/dgdl/Infineon-CY4533_EZ-PD_Barrel_Connector_Replacement_EVK_Guide-UserManual-v01_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f013aac1887)|
+| TUSB422 | DRP USB Type-C Port Control with Power Delivery (needs programming) | | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb422.pdf) | |
+| TPS65987D | USB Type-C and PD controller. Max 20V/5A | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS65987DDHRSHR/C2868843) | [Datasheet](https://www.ti.com/lit/ds/symlink/tps65987d.pdf) | The most common TI recommendation. No stock on JLCPCB. |
+
 ## USB 3 controllers
 ### UFP - Upstream facing port (on a USB hub, the one that connects to the computer)
-TUSB1064 - Upstream facing port (UFP) USB Type-C DP alt mode 10Gbps linear redriver crosspoint switch for 10Gbps speeeeds with active mux https://www.ti.com/product/TUSB1064
-### DFP
-TUSB546 - 5Gbps active mux (Available on pcbway)
-### DFP/UFP (aka DRD Dual-role data)
----> TUSB542 - 5Gbps active mux <-- this one looks popular> (7 pcs @ $11 @ JLCPCB, not available @ pcbway)
-## USB 2 Controller
-TUSB212?
-##
-## Redriver?
-Goes in between USB controller and the connector, to fix interference and quality issues
-When the redriver integrates with the mux -> it is called redriver mux / active mux
-e.g. TUSB522P very available $0.60
+| Part Name | Description | JLCPCB | Datasheet | Notes |
+| -  | - | - | - | - |
+| TUSB1064 | USB Type-C 10Gbps (active mux) with Alt Mode support | [JLCPCB](https://jlcpcb.com/parts/componentSearch?searchTxt=TUSB1064) | [Datasheet](https://www.ti.com/product/TUSB1064) | No stock! Too new and fancy? |
+| TUSB546A-DCI | USB Type-C 5Gbps + DP multi-protocol linear redriver (active mux) | | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb546a-dci.pdf) | 
+| TUSB564 | USB Type-C DP Alt Mode 5Gbps (active mux) | | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb564.pdf) | |
 
-## Passive mux
-PI3USB302-AZBEX
+
+### DFP
+
+### DFP/UFP (aka DRD Dual-role data)
+| Part Name | Description | JLCPCB | Datasheet | Notes |
+| -  | - | - | - | - | 
+| TUSB542 | 5-Gbps USB 3.1 Gen1 Type-C 2:1 mux and redriver (active mux) | [JLCPCB]() | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb542.pdf) | no stock.. |
+| HD3SS460 | 4x6-channel Type-C Alt Mode (passive mux) |  | [Datasheet](https://www.ti.com/lit/ds/symlink/hd3ss460.pdf) | |
+| HD3SS3212 | 2-channel 10-Gbps 2:1/1:2 USB 3.1 differential (passive mux) | | [Datasheet](https://www.ti.com/lit/ds/symlink/hd3ss3212.pdf?ts=1705944639657&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FHD3SS3212) | |
+| PI3USB302-AZBEX |  2-differential channel bi-directional multiplexer/demultiplexer (passive mux) | [JLCPCB](https://jlcpcb.com/partdetail/DiodesIncorporated-PI3USB302AZBEX/C500787) | [Datasheet](https://www.diodes.com/assets/Datasheets/PI3USB302-A.pdf) | very available! |
+
+## USB 2 Signal conditioner
+| Part Name | Description | JLCPCB | Notes |
+| -  | - | - | - |
+| TUSB212IRWBR | USB2.0 Signal conditioner | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TUSB212IRWBR/C2674396) | Note: TUSB211 is has less redriving capability |
+
+## Redriver
+| Part Name | Description | JLCPCB | Datasheet | Notes |
+| -  | - | - | - | - | 
+| TUSB544 | Type-C 5Gbps Redriver DRP? | | [Datasheet](https://www.ti.com/product/TUSB544) |  |
+| TUSB522P | 5Gbps USB3.0 redriver | [JLCPCB](https://jlcpcb.com/parts/componentSearch?searchTxt=TUSB522P) | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb522p.pdf?ts=1705944060021&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTUSB522P) | very available! |
+| TUSB1044 | 10Gbps multi-protocol bi-directional linear redriver | | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb1044.pdf) | |
+
 
 ### Recommendations by https://www.youtube.com/watch?v=_4h2ZD8O9Ms
 1. TUSB422 + TPS65987D + TUSB542 + TUSB212 (5Gbps)
 2. TUSB422 + TPS65987D + TUSB1042I + TUSB212 (10Gbps)
 
-TUSB422 -> DRP USB Type-C CC/PD controller
 TPS65987D -> Power delivery
 TUSB212 -> USB 2 controller
 
@@ -94,6 +105,8 @@ TUSB8042A
 TUSB8043A
 TUSB8044A (5Gbps) - Documentation is clearly the best https://www.ti.com/lit/ds/symlink/tusb8044a.pdf?ts=1704464901395&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fusb%252Fhubs-controllers%252Fproducts.html (jlcpcb no stock $11, pcbway available $12)
 
+CYUSB3304
+https://jlcpcb.com/partdetail/CypressSemicon-CYUSB330468LTXCT/C914921
 
 ## USB->Ethernet IC
 RTL8153 (lots in stock)
