@@ -64,9 +64,17 @@ Goes in between USB controller and the connector, to fix interference and qualit
 When the redriver integrates with the mux -> it is called redriver mux / active mux
 e.g. TUSB522P very available $0.60
 
+## Passive mux
+PI3USB302-AZBEX
+
 ### Recommendations by https://www.youtube.com/watch?v=_4h2ZD8O9Ms
 1. TUSB422 + TPS65987D + TUSB542 + TUSB212 (5Gbps)
 2. TUSB422 + TPS65987D + TUSB1042I + TUSB212 (10Gbps)
+
+TUSB422 -> DRP USB Type-C CC/PD controller
+TPS65987D -> Power delivery
+TUSB212 -> USB 2 controller
+
 
 # Hub controller
 VL822 = QFN88 variant features integrated 10Gbps Muxes for the Upstream Facing Port and two Downstream Facings Ports whereas the smaller QFN76/QFN56 variant does not. The integrated 10Gbps Muxes are ideal for Data-Only USB-C applications that would otherwise require an external Mux, with the advantage of potential board area savings and improved signal integrity. If additional USB-C Ports are need, separate CC Logic and Mux solutions.
@@ -74,7 +82,19 @@ VL822 = QFN88 variant features integrated 10Gbps Muxes for the Upstream Facing P
 
 ---> GL3523-OTY30 -  very available! (5Gbps) ($2, 2k stock on jlcpcb)
 
-TUSB8044A (5Gbps) - Documentation is clearly the best https://www.ti.com/lit/ds/symlink/tusb8044a.pdf?ts=1704464901395&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fusb%252Fhubs-controllers%252Fproducts.html (jlcpcb no stock $11, pcbway available $12)
-
 CYUSB3304-68LTXC (2 pieces in stock on jlcpcb, $4.60)
 https://jlcpcb.com/partdetail/CypressSemicon-CYUSB330468LTXC/C462531 
+
+VL817 - USB3.1 Gen 1 (5Gbps) TT, integrated 5V regulator (to 3.3 and 1.1) from 5V USB VBus (0 stock on jlcpcb)
+VL818 - USB3.2 (5Gbps), supports USB power saving features
+VL819 - USB PD hub, 3.2 Gen1x1 with USB PD support
+
+TUSB8041 - https://www.ti.com/product/TUSB8041 (Available on jlcpcb)
+TUSB8042A
+TUSB8043A
+TUSB8044A (5Gbps) - Documentation is clearly the best https://www.ti.com/lit/ds/symlink/tusb8044a.pdf?ts=1704464901395&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fusb%252Fhubs-controllers%252Fproducts.html (jlcpcb no stock $11, pcbway available $12)
+
+
+## USB->Ethernet IC
+RTL8153 (lots in stock)
+
