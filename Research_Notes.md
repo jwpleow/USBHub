@@ -12,7 +12,8 @@ https://componentsearchengine.com/
 https://easyeda.com/
 
 # STM32
-STM32F042G6U6 https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F042G6U6/C961597
+STM32F103C8T6 https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F103C8T6/C8734
+
 QFN package - more complicated :0?
 3.3V <- Needs a regulator from USB, ~100mA?
 USB natively on board!
@@ -63,7 +64,7 @@ Go for higher switching frequencies -> >1MHz?
 | -  | - | - | - | - | 
 | TUSB542 | 5-Gbps USB 3.1 Gen1 Type-C 2:1 mux and redriver (active mux) | [JLCPCB]() | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb542.pdf) | no stock.. |
 | HD3SS460 | 4x6-channel Type-C Alt Mode (passive mux) |  | [Datasheet](https://www.ti.com/lit/ds/symlink/hd3ss460.pdf) | |
-| HD3SS3212 | 2-channel 10-Gbps 2:1/1:2 USB 3.1 differential (passive mux) | | [Datasheet](https://www.ti.com/lit/ds/symlink/hd3ss3212.pdf?ts=1705944639657&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FHD3SS3212) | |
+| HD3SS3212 | 2-channel 10-Gbps 2:1/1:2 USB 3.1 differential (passive mux) | | [Datasheet](https://www.ti.com/lit/ds/symlink/hd3ss3212.pdf) | |
 | PI3USB302-AZBEX |  2-differential channel bi-directional multiplexer/demultiplexer (passive mux) | [JLCPCB](https://jlcpcb.com/partdetail/DiodesIncorporated-PI3USB302AZBEX/C500787) | [Datasheet](https://www.diodes.com/assets/Datasheets/PI3USB302-A.pdf) | very available! |
 
 ## USB 2 Signal conditioner
@@ -75,7 +76,7 @@ Go for higher switching frequencies -> >1MHz?
 | Part Name | Description | JLCPCB | Datasheet | Notes |
 | -  | - | - | - | - | 
 | TUSB544 | Type-C 5Gbps Redriver DRP? | | [Datasheet](https://www.ti.com/product/TUSB544) |  |
-| TUSB522P | 5Gbps USB3.0 redriver | [JLCPCB](https://jlcpcb.com/parts/componentSearch?searchTxt=TUSB522P) | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb522p.pdf?ts=1705944060021&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTUSB522P) | very available! |
+| TUSB522P | 5Gbps USB3.0 redriver | [JLCPCB](https://jlcpcb.com/parts/componentSearch?searchTxt=TUSB522P) | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb522p.pdf) | very available! |
 | TUSB1044 | 10Gbps multi-protocol bi-directional linear redriver | | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb1044.pdf) | |
 
 
@@ -87,7 +88,7 @@ TPS65987D -> Power delivery
 TUSB212 -> USB 2 controller
 
 
-# Hub controller
+## Hub controller
 VL822 = QFN88 variant features integrated 10Gbps Muxes for the Upstream Facing Port and two Downstream Facings Ports whereas the smaller QFN76/QFN56 variant does not. The integrated 10Gbps Muxes are ideal for Data-Only USB-C applications that would otherwise require an external Mux, with the advantage of potential board area savings and improved signal integrity. If additional USB-C Ports are need, separate CC Logic and Mux solutions.
 (not very available)
 
@@ -111,3 +112,15 @@ https://jlcpcb.com/partdetail/CypressSemicon-CYUSB330468LTXCT/C914921
 ## USB->Ethernet IC
 RTL8153 (lots in stock)
 
+## ESD Protection
+| Part Name | Description | JLCPCB | Datasheet | Notes |
+| -  | - | - | - | - | 
+| TI ESD122D | ESD Protection Bidirectional TVS | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | useful datasheet for protecting USB type C! |
+| TI TPDxE05U06 | ESD Protection Unidirectional TVS | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD4E05U06DQAR/C138714) ($0.09, 17k stock) | [Datasheet](https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf) | TI recommends this for protecting SBU/CC/DP/DM |
+| ESD3V3U4ULC-MS | ESD Protection | [JLCPCB](https://jlcpcb.com/partdetail/Msksemi-ESD3V3U4ULCMS/C2830125) ($0.09, 5.6k stock) | [Datasheet](https://file.elecfans.com/web2/M00/4A/30/pYYBAGKhxzqAM2bjAAZ0FOOCNZU239.pdf) | nice pass-through design, used in https://github.com/DynamixYANG/highendusb3hub/tree/master |
+| Nexperia PUSB3AB4 | ESD Protection for USB3.2 10Gbps | [JLCPCB](https://jlcpcb.com/partdetail/Nexperia-PUSB3AB4Z/C553549) ($0.22, 2k stock) | [Datasheet](https://assets.nexperia.com/documents/data-sheet/PUSB3AB4.pdf) |  | 
+| Nexperia IP4283CZ10 | ESD Protection for ultra high-speed devices | [JLCPCB](https://jlcpcb.com/partdetail/Nexperia-IP4283CZ10_TBR115/C551514) ($0.20, 5k stock) | [Datasheet](https://assets.nexperia.com/documents/data-sheet/IP4283CZ10_SER.pdf) |  |
+
+
+## USB Power switch
+TPS2001C https://www.ti.com/product/TPS2001C for the output USBs

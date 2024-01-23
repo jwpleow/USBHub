@@ -499,6 +499,18 @@
     [
       "d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3",
       ""
+    ],
+    [
+      "2bd96af5-5a66-4797-badd-32cacbbf4fbd",
+      "01 Power"
+    ],
+    [
+      "14d46a4b-97a9-40a6-8a63-5978fb903d34",
+      "02 USB UFP"
+    ],
+    [
+      "aef239ad-726b-4cbb-b085-3b57a4599b3b",
+      "03 USB_DFP"
     ]
   ],
   "text_variables": {}

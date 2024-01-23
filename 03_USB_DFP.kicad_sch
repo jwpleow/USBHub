@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bc9432fe-3b5f-4a61-9e4b-d160b551f6d3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Each output port must have ESD + power switch TPS2001C e.g."
+    (at 77.47 99.06 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0b2dd1c2-11f8-4f45-adf7-0307ff0e86be)
+  )
+)
