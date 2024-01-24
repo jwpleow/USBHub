@@ -1,7 +1,13 @@
 # Notes
 https://www.youtube.com/watch?v=W13HNsoHj7A USB-C Power Delivery Hardware Design - Phil's Lab #104
 https://www.ti.com/lit/wp/slyy109b/slyy109b.pdf?ts=1704425741746 A Primer on USB Type-C and USBPower Delivery Applications and Requirements
+
+# USB 3 hub examples
 https://github.com/DynamixYANG/highendusb3hub
+https://www.ti.com/lit/ug/slla312c/slla312c.pdf
+
+# USB PD examples
+https://www.ti.com/lit/ug/slvubo9a/slvubo9a.pdf
 
 # Parts check: 
 https://www.pcbway.com/components/
@@ -76,7 +82,7 @@ Go for higher switching frequencies -> >1MHz?
 | Part Name | Description | JLCPCB | Datasheet | Notes |
 | -  | - | - | - | - | 
 | TUSB544 | Type-C 5Gbps Redriver DRP? | | [Datasheet](https://www.ti.com/product/TUSB544) |  |
-| TUSB522P | 5Gbps USB3.0 redriver | [JLCPCB](https://jlcpcb.com/parts/componentSearch?searchTxt=TUSB522P) | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb522p.pdf) | very available! |
+| TUSB522P | 5Gbps USB3.0 redriver | [JLCPCB](https://jlcpcb.com/parts/componentSearch?searchTxt=TUSB522P) | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb522p.pdf) | very available! Requires 3.3V 100mA |
 | TUSB1044 | 10Gbps multi-protocol bi-directional linear redriver | | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb1044.pdf) | |
 
 
@@ -106,17 +112,18 @@ TUSB8042A
 TUSB8043A
 TUSB8044A (5Gbps) - Documentation is clearly the best https://www.ti.com/lit/ds/symlink/tusb8044a.pdf?ts=1704464901395&ref_url=https%253A%252F%252Fwww.ti.com%252Finterface%252Fusb%252Fhubs-controllers%252Fproducts.html (jlcpcb no stock $11, pcbway available $12)
 
-CYUSB3304
+CYUSB3304 - Requires 3.3V 101mA and 1.2V 322mA
 https://jlcpcb.com/partdetail/CypressSemicon-CYUSB330468LTXCT/C914921
 
 ## USB->Ethernet IC
 RTL8153 (lots in stock)
 
-## ESD Protection
+## ESD Protection, etc
 | Part Name | Description | JLCPCB | Datasheet | Notes |
 | -  | - | - | - | - | 
-| TI ESD122D | ESD Protection Bidirectional TVS | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | useful datasheet for protecting USB type C! |
-| TI TPDxE05U06 | ESD Protection Unidirectional TVS | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD4E05U06DQAR/C138714) ($0.09, 17k stock) | [Datasheet](https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf) | TI recommends this for protecting SBU/CC/DP/DM |
+| TI ESD122D | ESD Protection Bidirectional TVS | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | useful datasheet for protecting USB type C! Good for differential pairs |
+| TI TVS2200DRVR | ESD Protection 28V |  [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TVS2200DRVR/C523793) | [Datasheet](https://www.ti.com/lit/ds/symlink/tvs2200.pdf) | Good for 20V PD |
+| TI TPDxE05U06 | ESD Protection Unidirectional TVS | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD4E05U06DQAR/C138714) ($0.09, 17k stock) | [Datasheet](https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf) | TI recommends this for protecting SBU/CC/DP/DM? |
 | ESD3V3U4ULC-MS | ESD Protection | [JLCPCB](https://jlcpcb.com/partdetail/Msksemi-ESD3V3U4ULCMS/C2830125) ($0.09, 5.6k stock) | [Datasheet](https://file.elecfans.com/web2/M00/4A/30/pYYBAGKhxzqAM2bjAAZ0FOOCNZU239.pdf) | nice pass-through design, used in https://github.com/DynamixYANG/highendusb3hub/tree/master |
 | Nexperia PUSB3AB4 | ESD Protection for USB3.2 10Gbps | [JLCPCB](https://jlcpcb.com/partdetail/Nexperia-PUSB3AB4Z/C553549) ($0.22, 2k stock) | [Datasheet](https://assets.nexperia.com/documents/data-sheet/PUSB3AB4.pdf) |  | 
 | Nexperia IP4283CZ10 | ESD Protection for ultra high-speed devices | [JLCPCB](https://jlcpcb.com/partdetail/Nexperia-IP4283CZ10_TBR115/C551514) ($0.20, 5k stock) | [Datasheet](https://assets.nexperia.com/documents/data-sheet/IP4283CZ10_SER.pdf) |  |

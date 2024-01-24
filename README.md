@@ -15,6 +15,11 @@ KT-0603R
 https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
 
 
+## Power
+| Part Name | Description | Datasheet | JLCPCB |
+| - | - | - | - |
+| TPS54331DR | Step-down type Adjustable 0.8V~25V 3A 3.5V~28V Buck converter | [Datasheet](https://www.ti.com/lit/ds/symlink/tps54331.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS54331DR/C9865) |
+
 ## USB
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
@@ -28,9 +33,11 @@ https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
 ### USB Ancillaries
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
-|  | |  | [JLCPCB]() |
+| TI ESD122DMXR | ESD Protection TVS | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  || 
+| TI TVS2200DRVR | ESD Protection 28V for VBUS | [Datasheet](https://www.ti.com/lit/ds/symlink/tvs2200.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TVS2200DRVR/C523793) |
 
 
+ <!-- | TI TPDxE05U06 | ESD Protection TVS 28V for CC / DP / DM?  | [Datasheet](https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD4E05U06DQAR/C138714)  -->
 
 ## Buck Converter to 5V
 

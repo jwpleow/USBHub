@@ -48,6 +48,23 @@
     )
   )
 
+  (sheet (at 83.82 96.52) (size 44.45 55.88) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ab1e5fbe-3be5-47b1-a048-7835d2aad0d1)
+    (property "Sheetname" "04 Hub Controller" (at 83.82 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "04_HubController.kicad_sch" (at 83.82 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USBHUB"
+        (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 83.82 22.86) (size 44.45 55.88) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

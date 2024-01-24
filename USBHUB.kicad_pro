@@ -511,6 +511,14 @@
     [
       "aef239ad-726b-4cbb-b085-3b57a4599b3b",
       "03 USB_DFP"
+    ],
+    [
+      "38e014e7-3281-4b3d-a8ed-ec581f581dff",
+      "01a BuckConverters"
+    ],
+    [
+      "ab1e5fbe-3be5-47b1-a048-7835d2aad0d1",
+      "04 Hub Controller"
     ]
   ],
   "text_variables": {}
