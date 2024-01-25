@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b9f1daf4-477f-4410-86a3-e4c0ce7da234)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (rectangle (start 15.24 45.72) (end 229.87 102.87)
+    (stroke (width 0) (type dash))
+    (fill (type none))
+    (uuid be00b303-1cf8-4674-9f5c-e61c37779dac)
+  )
+
+  (text "3V3 Requirements:\nTUSB522 - 100mA\nCYUSB3304 - 101mA\nPI3USB302−A - 0.2mA"
+    (at 16.51 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 19e7274a-a9dd-4eb5-aaa9-b7c9f09c7181)
+  )
+)

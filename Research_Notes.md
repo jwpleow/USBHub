@@ -37,6 +37,7 @@ Pick correct output voltage & output current
 
 Go for higher switching frequencies -> >1MHz?
 
+-> Use dual output LDO TPS70445 :0 but jlcpcb no stock
 
 # USB
 

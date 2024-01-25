@@ -497,12 +497,12 @@
   },
   "sheets": [
     [
-      "d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3",
-      ""
-    ],
-    [
       "2bd96af5-5a66-4797-badd-32cacbbf4fbd",
       "01 Power"
+    ],
+    [
+      "38e014e7-3281-4b3d-a8ed-ec581f581dff",
+      "01a VoltageRegulators"
     ],
     [
       "14d46a4b-97a9-40a6-8a63-5978fb903d34",
@@ -513,12 +513,16 @@
       "03 USB_DFP"
     ],
     [
-      "38e014e7-3281-4b3d-a8ed-ec581f581dff",
-      "01a BuckConverters"
-    ],
-    [
       "ab1e5fbe-3be5-47b1-a048-7835d2aad0d1",
       "04 Hub Controller"
+    ],
+    [
+      "d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3",
+      ""
+    ],
+    [
+      "0c994a71-03be-4db2-b2dd-98517fcc5ee8",
+      "01b VoltageRegulators"
     ]
   ],
   "text_variables": {}
