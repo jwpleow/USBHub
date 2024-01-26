@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "USBHUBSymbols")(type "KiCad")(uri "${KIPRJMOD}/USBHUBSymbols.kicad_sym")(options "")(descr ""))
+  (lib (name "temp")(type "KiCad")(uri "${KIPRJMOD}/Library/Symbols/PI3USB302-AZBEX.kicad_sym")(options "")(descr ""))
+  (lib (name "CakeUSB")(type "KiCad")(uri "${KIPRJMOD}/Library/Symbols/Cake_USB.kicad_sym")(options "")(descr ""))
 )

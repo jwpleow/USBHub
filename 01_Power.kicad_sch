@@ -2225,23 +2225,6 @@
     )
   )
 
-  (sheet (at 67.31 137.16) (size 43.18 49.53) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0c994a71-03be-4db2-b2dd-98517fcc5ee8)
-    (property "Sheetname" "01b VoltageRegulators" (at 67.31 136.4484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "01b_VoltageRegulators.kicad_sch" (at 67.31 187.2746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "USBHUB"
-        (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd" (page "7"))
-      )
-    )
-  )
-
   (sheet (at 22.86 137.16) (size 39.37 49.53) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

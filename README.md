@@ -53,8 +53,9 @@ uh oh thermal problems... -->
 ### USB Ancillaries
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
-| TI ESD122DMXR | ESD Protection TVS | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  || 
+| TI ESD122DMXR | ESD Protection TVS for differential pairs | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  || 
 | TI TVS2200DRVR | ESD Protection 28V for VBUS | [Datasheet](https://www.ti.com/lit/ds/symlink/tvs2200.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TVS2200DRVR/C523793) |
+| TPS2069CDBVR | 1.5A Current limiting power distribution switch for USB DFP | [Datasheet](https://www.ti.com/lit/ds/symlink/tps2001c.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS2069CDBVR/C181752) |
 
 
  <!-- | TI TPDxE05U06 | ESD Protection TVS 28V for CC / DP / DM?  | [Datasheet](https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD4E05U06DQAR/C138714)  -->

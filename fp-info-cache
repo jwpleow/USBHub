@@ -1,4 +1,4 @@
-23463146192039014
+23475090387419834
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2498,6 +2498,55 @@ CYPD3177_24LQx_QFN-24_EP_4x4_Pitch0.5mm
 0
 40
 25
+Cake_USB
+CYUSB3304-68LTXx
+
+
+0
+69
+69
+Cake_USB
+ESD122DMX
+
+
+0
+3
+3
+Cake_USB
+PI3USB302-Ax
+20-TQFN (ZB)
+Integrated Circuit
+0
+21
+21
+Cake_USB
+TPS51396Ax
+
+
+0
+36
+21
+Cake_USB
+TPS54331DR
+
+
+0
+8
+8
+Cake_USB
+TUSB522Px
+
+
+0
+25
+25
+Cake_USB
+TVS2200DRVx
+
+
+0
+7
+7
 Cake_USB
 USB_C_Receptacle_GT-USB-7052
 USB TYPE C, VERT RCPT PCB, SMT, https://www.dg-switch.com/uploads/soft/200510/GT-USB-7052.pdf
