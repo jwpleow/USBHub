@@ -58,8 +58,50 @@ uh oh thermal problems... -->
 | TPS2069CDBVR | 1.5A Current limiting power distribution switch for USB DFP | [Datasheet](https://www.ti.com/lit/ds/symlink/tps2001c.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS2069CDBVR/C181752) |
 
 
+### Others
+| Part Name | Description | Datasheet | JLCPCB |
+| - | - | - | - |
+| TXM26M0004322CBCDO00T | Crystal for USB Hub Controller 26MHz +- 10ppm 9pF | | [JLCPCB](https://jlcpcb.com/partdetail/Yajingxin-TXM26M0004322CBCDO00T/C362346) |
+| KT-0805G | LED Green | | [JLCPCB](https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0805G/C2297) |
+| BLM21PG221SN1D | Ferrite Bead 2A @ 85C | | [JLCPCB](https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840) |
  <!-- | TI TPDxE05U06 | ESD Protection TVS 28V for CC / DP / DM?  | [Datasheet](https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD4E05U06DQAR/C138714)  -->
 
 ## Buck Converter to 5V
 
 
+## USB Hub Design Checklist
+1 Are the decoupling capacitors and bulk capacitors connected as per Figure 1 and Figure 2? Y
+2 Does the crystal meet the specification in this application note?  Y
+3 Are all DS ports provided with 150-µF bulk capacitors?
+4 Do the Power-on-Reset RC components meet the minimum reset time (5 ms)?
+5 Do the USB precision resistors have 1% tolerance? 
+6 Are the I2C lines provided with pull-up resistors to the 3.3-V domain?
+7 Do the LEDs connected to the pin-strap pins have a 10-kΩ parallel resistor?
+8
+Is it ensured that the DS port power switch has a MOSFET connected to the OUTPUT pin or selected a power switch with
+fast discharge?
+9 Is the VBUS_US pin provided with a 10-kΩ voltage divider network?
+10 Is the US port provided with 1-µF bulk capacitor?
+11 Are all port shields terminated properly?
+12 Are the ferrite beads connected as shown in Figure 1 and Figure 2?
+13
+Are MODE_SEL[1] and MODE_SEL[0] not pulled LOW when the pin-strap configuration is used with HX3? (For 88-pin
+QFN only).
+14
+Are values of the resistors connected in series to the LEDs decided based on the HX3’s I/O current source/sink capability
+(4 mA)?
+Layout Checklist
+1 Is the crystal placed close to the chip (less than 1 cm)?
+2 Are the decoupling capacitors and bulk capacitors placed close to the HX3 power pins?
+3 Are the vias placed close to the HX3 power pins?
+4 Are the power traces routed away from the high-speed data lines and the clock lines?
+5 Is the capacitor in the RC reset circuitry placed close to the reset pin of HX3?
+6 Is the 150-µF capacitor placed close to the DS port connector?
+7 Are the USB SS and HS signal lines matched in length?
+8 Are the USB data lines provided with solid ground plane underneath?
+9 Are the SS traces provided with the guard traces along the USB data trace with stitching vias?
+10 Are the SS traces provided with the AC decoupling capacitors (0.1 µF) on the TX lines?
+11 Are the USB traces kept as short as possible?
+12 Is it ensured that there are no stubs on all the USB traces?
+13 Is it ensured that there are no vias on the SS traces?
+14 Do the USB traces have few bends and no 90-degree bends?
