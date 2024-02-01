@@ -19,7 +19,7 @@ https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
 ### 5V
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
-| TPS51396 | 4.5-V to 24-V In, 0.6-V to 7-V Out, 8-A Synchronous Step-Down Voltage Regulator | [Datasheet](https://www.ti.com/lit/ds/symlink/tps51396a.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS51396ARJER/C3032872) | 
+| TPS56637RPAR | 4.5-V to 24-V In, 0.6-V to 7-V Out, 8-A Synchronous Step-Down Voltage Regulator | [Datasheet](https://www.ti.com/lit/ds/symlink/tps51396a.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS56637RPAR/C841386) | 
 <!-- | TPS56637RPAR | ($1.59, 5k stock) 93.2% eff | [Datasheet](https://www.ti.com/lit/ds/symlink/tps51396a.pdf) | -->
 
 ### 3V3
@@ -56,7 +56,7 @@ uh oh thermal problems... -->
 | TI ESD122DMXR | ESD Protection TVS for differential pairs | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  || 
 | TI TVS2200DRVR | ESD Protection 28V for VBUS | [Datasheet](https://www.ti.com/lit/ds/symlink/tvs2200.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TVS2200DRVR/C523793) |
 | TPS2069CDBVR | 1.5A Current limiting power distribution switch for USB DFP | [Datasheet](https://www.ti.com/lit/ds/symlink/tps2001c.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS2069CDBVR/C181752) |
-
+| ESD5B5.0ST1G | 5.8V ESD Protection for DFP VBUS | [Datasheet](https://www.onsemi.com/pdf/datasheet/esd5b5.0st1-d.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/Onsemi-ESD5B50ST1G/C93623) | 
 
 ### Others
 | Part Name | Description | Datasheet | JLCPCB |

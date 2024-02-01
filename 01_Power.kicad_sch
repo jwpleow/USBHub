@@ -5,17 +5,20 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Cake_USB:CYPD3177_24x" (in_bom yes) (on_board yes)
+    (symbol "CakeUSB:CYPD3177_24x" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -24.13 15.24 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "CYPD3177_24x" (at 22.86 20.32 0)
+      (property "Value" "CYPD3177_24x" (at 20.32 15.24 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Cake_USB:CYPD3177_24LQx_QFN-24_EP_4x4_Pitch0.5mm" (at 43.18 15.24 0)
+      (property "Footprint" "Cake_USB:CYPD3177_24LQx_QFN-24_EP_4x4_Pitch0.5mm" (at 44.45 29.21 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad" (at 105.41 17.78 0)
+      (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad" (at 106.68 26.67 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "USB Type-C PD Port Controller for Power Sinks" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "CYPD3177_24x_1_1"
@@ -122,6 +125,166 @@
         (pin output line (at 19.05 -8.89 180) (length 2.54)
           (name "FAULT" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "CakeUSB:SI3421DV" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 2.54 7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SI3421DV" (at 1.27 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 24.13 10.16 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/si3421dv-1764435.pdf" (at 40.64 7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "manf#" "SI3421DV-T1-GE3" (at 16.51 12.7 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "transistor PMOS P-MOS P-MOSFET" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "P-MOSFET transistor, gate/source/drain" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SI3421DV_0_1"
+        (circle (center -1.778 0) (radius 0.254)
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (circle (center 0 -0.889) (radius 2.794)
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -1.778 0)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.286 -1.778)
+            (xy -1.27 -1.778)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 -2.286)
+            (xy 1.905 -2.286)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 -1.778)
+            (xy 0.508 -1.778)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.286)
+            (xy 0 -5.08)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.778)
+            (xy 2.286 -1.778)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0)
+            (xy 0 0)
+            (xy 0 -1.778)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -1.778)
+            (xy -1.778 0.762)
+            (xy 1.778 0.762)
+            (xy 1.778 -1.778)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -0.254)
+            (xy -0.381 -1.27)
+            (xy 0.381 -1.27)
+            (xy 0 -0.254)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0.381 0.762)
+            (xy -0.254 0.381)
+            (xy -0.254 1.143)
+            (xy 0.381 0.762)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 0.254)
+            (xy 0.381 0.381)
+            (xy 0.381 1.143)
+            (xy 0.254 1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (circle (center 1.778 0) (radius 0.254)
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+      )
+      (symbol "SI3421DV_1_1"
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54) hide
+          (name "D1" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -7.62 90) (length 2.54)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54) hide
+          (name "D2" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54) hide
+          (name "D3" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -409,166 +572,6 @@
         (pin power_in line (at 0 0 90) (length 0) hide
           (name "+20V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "catSink:SI3421DV" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 2.54 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "SI3421DV" (at 1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 25.4 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/si3421dv-1764435.pdf" (at 0 -2.54 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "manf#" "SI3421DV-T1-GE3" (at 17.78 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "transistor PMOS P-MOS P-MOSFET" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "P-MOSFET transistor, gate/source/drain" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SI3421DV_0_1"
-        (circle (center -1.778 0) (radius 0.254)
-          (stroke (width 0) (type solid))
-          (fill (type outline))
-        )
-        (circle (center 0 -0.889) (radius 2.794)
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy -1.778 0)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 -1.778)
-            (xy -1.27 -1.778)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 -2.286)
-            (xy 1.905 -2.286)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.508 -1.778)
-            (xy 0.508 -1.778)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -2.286)
-            (xy 0 -5.08)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.778)
-            (xy 2.286 -1.778)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 0)
-            (xy 0 0)
-            (xy 0 -1.778)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -1.778)
-            (xy -1.778 0.762)
-            (xy 1.778 0.762)
-            (xy 1.778 -1.778)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.254)
-            (xy -0.381 -1.27)
-            (xy 0.381 -1.27)
-            (xy 0 -0.254)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 0.381 0.762)
-            (xy -0.254 0.381)
-            (xy -0.254 1.143)
-            (xy 0.381 0.762)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.508 0.254)
-            (xy 0.381 0.381)
-            (xy 0.381 1.143)
-            (xy 0.254 1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (circle (center 1.778 0) (radius 0.254)
-          (stroke (width 0) (type solid))
-          (fill (type outline))
-        )
-      )
-      (symbol "SI3421DV_1_1"
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54) hide
-          (name "D1" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -7.62 90) (length 2.54)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54) hide
-          (name "D2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54) hide
-          (name "D3" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1268,7 +1271,7 @@
   (symbol (lib_id "Device:R") (at 153.797 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0701fba7-7027-4ef7-b8e1-1e6c3dbe984a)
-    (property "Reference" "R5" (at 155.956 68.58 0)
+    (property "Reference" "R6" (at 155.956 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 155.956 71.12 0)
@@ -1285,7 +1288,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1294,7 +1297,7 @@
   (symbol (lib_id "power:GND") (at 86.995 103.124 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11a13280-d213-4da9-b05e-63e25dc8cd4c)
-    (property "Reference" "#PWR013" (at 86.995 109.474 0)
+    (property "Reference" "#PWR011" (at 86.995 109.474 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.995 108.458 0)
@@ -1310,7 +1313,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1396,7 +1399,7 @@
   (symbol (lib_id "Device:R") (at 110.363 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29c1a513-241c-44b0-ab9f-bcbc60ddc306)
-    (property "Reference" "R3" (at 112.903 52.07 0)
+    (property "Reference" "R4" (at 112.903 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 112.903 54.61 0)
@@ -1413,7 +1416,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R3") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1422,7 +1425,7 @@
   (symbol (lib_id "power:VBUS") (at 60.833 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 333103dd-ab4b-4a5a-b2ac-a3979a15fcc5)
-    (property "Reference" "#PWR07" (at 60.833 62.23 0)
+    (property "Reference" "#PWR06" (at 60.833 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 60.833 54.102 0)
@@ -1438,7 +1441,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1473,7 +1476,7 @@
   (symbol (lib_id "Device:R") (at 58.547 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c555cce-369f-450d-b2fa-211f64c7b482)
-    (property "Reference" "R8" (at 61.341 85.09 0)
+    (property "Reference" "R9" (at 61.341 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 61.341 87.63 0)
@@ -1490,7 +1493,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1577,7 +1580,7 @@
   (symbol (lib_id "Device:R") (at 160.909 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bba63e8-cdc7-40de-b5df-071feff1f67e)
-    (property "Reference" "R6" (at 163.703 68.58 0)
+    (property "Reference" "R7" (at 163.703 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 163.703 71.12 0)
@@ -1594,13 +1597,13 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Cake_USB:CYPD3177_24x") (at 116.713 76.2 0) (unit 1)
+  (symbol (lib_id "CakeUSB:CYPD3177_24x") (at 116.713 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d6c3bf1-ff10-4c81-9f7f-2ceda5ca545a)
     (property "Reference" "U1" (at 131.953 62.23 0)
@@ -1609,10 +1612,10 @@
     (property "Value" "CYPD3177_24x" (at 128.397 98.044 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Cake_USB:CYPD3177_24LQx_QFN-24_EP_4x4_Pitch0.5mm" (at 159.893 60.96 0)
+    (property "Footprint" "Cake_USB:CYPD3177_24LQx_QFN-24_EP_4x4_Pitch0.5mm" (at 161.163 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad" (at 222.123 58.42 0)
+    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-EZ-PD_BCR_Datasheet_USB_Type-C_Port_Controller_for_Power_Sinks-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee7ce9d70ad" (at 223.393 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7f3fcdc7-be39-42c6-8a3a-6381849573d0))
@@ -1652,7 +1655,7 @@
   (symbol (lib_id "USBHUBSymbols:+20V") (at 139.065 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f9e2c67-6c8e-4168-8638-d6bad305cc5d)
-    (property "Reference" "#PWR08" (at 139.065 69.85 0)
+    (property "Reference" "#PWR07" (at 139.065 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+20V" (at 139.065 61.341 0)
@@ -1668,7 +1671,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1703,7 +1706,7 @@
   (symbol (lib_id "power:GND") (at 102.743 102.616 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 648e27f8-b8d4-4d09-a5c6-9dc39c396e37)
-    (property "Reference" "#PWR012" (at 102.743 108.966 0)
+    (property "Reference" "#PWR010" (at 102.743 108.966 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.743 107.696 0)
@@ -1719,7 +1722,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1728,7 +1731,7 @@
   (symbol (lib_id "power:GND") (at 113.157 113.284 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73509d77-e100-49b8-9696-e6e5b7f18fe5)
-    (property "Reference" "#PWR015" (at 113.157 119.634 0)
+    (property "Reference" "#PWR012" (at 113.157 119.634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.157 118.364 0)
@@ -1744,7 +1747,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1804,7 +1807,7 @@
   (symbol (lib_id "Device:R") (at 173.99 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c2ddd0b-eb6b-4464-ad4d-32af5383f25f)
-    (property "Reference" "R11" (at 176.53 81.28 0)
+    (property "Reference" "R8" (at 176.53 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3k9" (at 176.53 83.82 0)
@@ -1821,7 +1824,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1856,7 +1859,7 @@
   (symbol (lib_id "Device:R") (at 228.6 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83a16f3b-39cc-4231-9261-ce9e717ab5d2)
-    (property "Reference" "R7" (at 231.394 40.64 0)
+    (property "Reference" "R3" (at 231.394 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 231.394 43.18 0)
@@ -1873,13 +1876,13 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "catSink:SI3421DV") (at 137.287 29.972 0) (mirror y) (unit 1)
+  (symbol (lib_id "CakeUSB:SI3421DV") (at 137.287 29.972 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 843de498-aea8-4bdb-bee3-5b071ac8c089)
     (property "Reference" "Q2" (at 137.287 23.622 0)
@@ -1888,13 +1891,13 @@
     (property "Value" "SI3421DV" (at 137.287 26.162 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 111.887 29.972 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 113.157 19.812 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/si3421dv-1764435.pdf" (at 137.287 32.512 90)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/si3421dv-1764435.pdf" (at 96.647 22.352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "SI3421DV-T1-GE3" (at 119.507 27.432 0)
+    (property "manf#" "SI3421DV-T1-GE3" (at 120.777 17.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fc496119-e4ee-4e2f-bc41-1ba7b46b8fb6))
@@ -1938,22 +1941,22 @@
     )
   )
 
-  (symbol (lib_id "catSink:SI3421DV") (at 104.013 29.972 0) (unit 1)
+  (symbol (lib_id "CakeUSB:SI3421DV") (at 104.013 29.972 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9abfd67a-08b0-4dbf-b904-79f656d73477)
-    (property "Reference" "Q1" (at 104.013 23.622 0)
+    (property "Reference" "Q1" (at 104.013 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SI3421DV" (at 104.013 26.162 0)
+    (property "Value" "SI3421DV" (at 104.013 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 129.413 29.972 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 128.143 19.812 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/si3421dv-1764435.pdf" (at 104.013 32.512 90)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/si3421dv-1764435.pdf" (at 144.653 22.352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "SI3421DV-T1-GE3" (at 121.793 27.432 0)
+    (property "manf#" "SI3421DV-T1-GE3" (at 120.523 17.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 826a2bac-024a-4e09-8f95-c53b76cefe1b))
@@ -1974,7 +1977,7 @@
   (symbol (lib_id "power:GND") (at 228.6 47.244 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a91747a1-3805-457b-9429-ebc0bf47c85f)
-    (property "Reference" "#PWR010" (at 228.6 53.594 0)
+    (property "Reference" "#PWR05" (at 228.6 53.594 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 52.324 0)
@@ -1990,7 +1993,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1999,7 +2002,7 @@
   (symbol (lib_id "power:GND") (at 134.747 116.332 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b04a4f76-e8c4-4580-b8e0-af258ff87662)
-    (property "Reference" "#PWR016" (at 134.747 122.682 0)
+    (property "Reference" "#PWR013" (at 134.747 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.747 120.777 0)
@@ -2015,7 +2018,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2024,7 +2027,7 @@
   (symbol (lib_id "Device:R") (at 58.547 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0e15f8a-fc72-4e63-bf91-81714ef43129)
-    (property "Reference" "R9" (at 60.833 93.98 0)
+    (property "Reference" "R10" (at 60.833 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 60.833 96.52 0)
@@ -2041,7 +2044,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2101,7 +2104,7 @@
   (symbol (lib_id "power:GND") (at 58.547 100.838 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da5f2c71-1883-4cff-80f3-cfa2d628fa6c)
-    (property "Reference" "#PWR011" (at 58.547 107.188 0)
+    (property "Reference" "#PWR09" (at 58.547 107.188 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.547 105.156 0)
@@ -2117,7 +2120,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2126,7 +2129,7 @@
   (symbol (lib_id "power:GND") (at 64.135 67.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8fc1de3-fb4a-46f7-9b30-c201b86b6973)
-    (property "Reference" "#PWR09" (at 64.135 74.295 0)
+    (property "Reference" "#PWR08" (at 64.135 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.135 73.025 0)
@@ -2142,7 +2145,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2151,7 +2154,7 @@
   (symbol (lib_id "power:GND") (at 170.18 37.338 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaa1fd8a-f11b-4919-adfa-48a27e9f30c2)
-    (property "Reference" "#PWR06" (at 170.18 43.688 0)
+    (property "Reference" "#PWR04" (at 170.18 43.688 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 42.418 0)
@@ -2167,7 +2170,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2176,7 +2179,7 @@
   (symbol (lib_id "Device:R") (at 146.685 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef350f37-1b6b-467a-bbb2-466e25c5c782)
-    (property "Reference" "R4" (at 148.59 68.58 0)
+    (property "Reference" "R5" (at 148.59 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 148.59 71.12 0)
@@ -2193,7 +2196,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2202,7 +2205,7 @@
   (symbol (lib_id "Device:R") (at 86.995 97.282 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f866b175-1113-4874-a4a1-d3cc203ef2b7)
-    (property "Reference" "R10" (at 88.773 96.012 0)
+    (property "Reference" "R11" (at 88.773 96.012 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 88.773 98.552 0)
@@ -2219,7 +2222,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/2bd96af5-5a66-4797-badd-32cacbbf4fbd"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
