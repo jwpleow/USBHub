@@ -20,25 +20,19 @@ https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
 | TPS56637RPAR | 4.5-V to 24-V In, 0.6-V to 7-V Out, 8-A Synchronous Step-Down Voltage Regulator | [Datasheet](https://www.ti.com/lit/ds/symlink/tps51396a.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS56637RPAR/C841386) | 
-<!-- | TPS56637RPAR | ($1.59, 5k stock) 93.2% eff | [Datasheet](https://www.ti.com/lit/ds/symlink/tps51396a.pdf) | -->
+| FXL0630-3R3-M | Inductor 3.3uH (max 22mOhm) 8.5A | | [JLCPCB](https://jlcpcb.com/partdetail/178602-FXL0630_3R3M/C167219) |
 
 ### 3V3
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
 | TLV75733PDBVR |  Fixed 3.3V 1A SOT-23-5 25uA qI | | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TLV75733PDBVR/C485517) |
-<!-- | AP2112K-3.3TRG1 | Fixed 3.3V 600mA LDO 55uA qI| [Datasheet](https://www.diodes.com/assets/Datasheets/AP2112.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/DiodesIncorporated-AP2112K_33TRG1/C51118) |  
-uh oh thermal problems... -->
-<!-- | LM317T-DG | 1.5A Adjustable 1.2V-37V TO-220 LDO | []() | [JLCPCB](https://jlcpcb.com/partdetail/Stmicroelectronics-LM317TDG/C18718) | -->
-<!-- | AMS1117-3.3 | LDO 1A 3.3V output 5V input | [Datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186) | people complain it sucks, super old, extremely high quiescent current -->
-<!-- | LD1117S33TR | Fixed 3.3V 800mA SOT-223 | [Datasheet](https://www.st.com/resource/en/datasheet/ld1117.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/Stmicroelectronics-LD1117S33TR/C86781) | -->
+
 
 ### 1V2
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
 | TPS54331DR | Step-down type Adjustable 0.8V~25V 3A 3.5V~28V Buck converter | [Datasheet](https://www.ti.com/lit/ds/symlink/tps54331.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS54331DR/C9865) |
-<!-- | |  | []() | [JLCPCB]() | -->
-
-
+| FNR6045S180MT | Inductor 18uH ±20% 2.4A SMD,6x6mm, 81mOhm |  | [JLCPCB](https://jlcpcb.com/partdetail/179462-FNR6045S180MT/C168079) |
 
 ## USB
 | Part Name | Description | Datasheet | JLCPCB |
