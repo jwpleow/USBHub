@@ -1,4 +1,4 @@
-23475090387762986
+23487039465602176
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2491,63 +2491,112 @@ speaker CUI
 0
 2
 2
-Cake_USB
+CakeUSB
 CYPD3177_24LQx_QFN-24_EP_4x4_Pitch0.5mm
 
 
 0
 40
 25
-Cake_USB
+CakeUSB
 CYUSB3304-68LTXx
 
 
 0
 84
 69
-Cake_USB
+CakeUSB
 ESD122DMX
 
 
 0
 3
 3
-Cake_USB
+CakeUSB
+FNR6045Sx
+Inductor, 6x6mm
+
+0
+2
+2
+CakeUSB
+FXL0630x
+Inductor, 7.3x6.8mm
+
+0
+2
+2
+CakeUSB
+Molex_484080003
+USB 3 Type A Vertical
+
+0
+11
+10
+CakeUSB
 PI3USB302-Ax
 20-TQFN (ZB)
 Integrated Circuit
 0
 21
 21
-Cake_USB
+CakeUSB
+PUSB3FR4Z
+
+
+0
+10
+10
+CakeUSB
 TPS51396Ax
 
 
 0
 36
 21
-Cake_USB
+CakeUSB
 TPS54331DR
 
 
 0
 8
 8
-Cake_USB
+CakeUSB
+TPS56637RPAR
+
+
+0
+13
+10
+CakeUSB
+TUSB212x
+
+
+0
+12
+12
+CakeUSB
 TUSB522Px
 
 
 0
 25
 25
-Cake_USB
+CakeUSB
 TVS2200DRVx
 
 
 0
 7
 7
-Cake_USB
+CakeUSB
+USB_C_Receptacle_GT-USB-7028x
+
+
+0
+24
+24
+CakeUSB
 USB_C_Receptacle_GT-USB-7052
 USB TYPE C, VERT RCPT PCB, SMT, https://www.dg-switch.com/uploads/soft/200510/GT-USB-7052.pdf
 USB C Type-C Receptacle SMD
