@@ -1,4 +1,4 @@
-23487039465602176
+23492167982878563
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2527,6 +2527,13 @@ Inductor, 7.3x6.8mm
 2
 2
 CakeUSB
+G24P02S
+
+
+0
+24
+24
+CakeUSB
 Molex_484080003
 USB 3 Type A Vertical
 
@@ -2546,7 +2553,21 @@ PUSB3FR4Z
 
 0
 10
-10
+6
+CakeUSB
+R-RJ45R08P-C000
+
+
+0
+14
+13
+CakeUSB
+RTL8153B-VB-CG
+
+
+0
+56
+41
 CakeUSB
 TPS51396Ax
 
@@ -2594,8 +2615,8 @@ USB_C_Receptacle_GT-USB-7028x
 
 
 0
-24
-24
+28
+25
 CakeUSB
 USB_C_Receptacle_GT-USB-7052
 USB TYPE C, VERT RCPT PCB, SMT, https://www.dg-switch.com/uploads/soft/200510/GT-USB-7052.pdf

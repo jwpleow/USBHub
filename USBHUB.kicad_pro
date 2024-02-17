@@ -571,6 +571,10 @@
     [
       "e0fe5d58-9802-4510-b8cf-df41979069a4",
       "03a Power Switches"
+    ],
+    [
+      "e5ff48c6-4ab4-44af-a471-2f3943b300c6",
+      "05 Ethernet USB IC"
     ]
   ],
   "text_variables": {}

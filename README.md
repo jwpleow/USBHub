@@ -47,10 +47,18 @@ https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
 ### USB Ancillaries
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
-| TI ESD122DMXR | ESD Protection TVS for differential pairs | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  || 
+| TI ESD122DMXR | ESD Protection TVS for differential pairs | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  |
 | TI TVS2200DRVR | ESD Protection 28V for VBUS | [Datasheet](https://www.ti.com/lit/ds/symlink/tvs2200.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TVS2200DRVR/C523793) |
 | TPS2069CDBVR | 1.5A Current limiting power distribution switch for USB DFP | [Datasheet](https://www.ti.com/lit/ds/symlink/tps2001c.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS2069CDBVR/C181752) |
 | ESD5B5.0ST1G | 5.8V ESD Protection for DFP VBUS | [Datasheet](https://www.onsemi.com/pdf/datasheet/esd5b5.0st1-d.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/Onsemi-ESD5B50ST1G/C93623) | 
+
+### Ethernet USB 
+| Part Name | Description | Datasheet | JLCPCB |
+| - | - | - | - |
+| RTL8153B-VB-CG | Ethernet-USB controller | []() | [JLCPCB](https://jlcpcb.com/partdetail/RealtekSemicon-RTL8153B_VBCG/C2802072)  |
+| G24P02S | RJ45 Transformer | | [JLCPCB](https://jlcpcb.com/partdetail/Jasn-G24P02S/C2827276)  |
+| 7D025000Q01 | 25MHz Crystal, 18pF +- 10ppm | | [JLCPCB](https://jlcpcb.com/partdetail/Hd-7D025000Q01/C648942)|
+
 
 ### Others
 | Part Name | Description | Datasheet | JLCPCB |

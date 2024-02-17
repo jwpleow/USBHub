@@ -82,6 +82,23 @@
     )
   )
 
+  (sheet (at 146.05 22.86) (size 45.72 55.88) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e5ff48c6-4ab4-44af-a471-2f3943b300c6)
+    (property "Sheetname" "05 Ethernet USB IC" (at 146.05 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "05_Ethernet_USB_IC.kicad_sch" (at 146.05 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USBHUB"
+        (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3" (page "8"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "7"))
   )

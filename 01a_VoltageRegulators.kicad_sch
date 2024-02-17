@@ -1446,8 +1446,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 64cebf3f-b95b-458a-92ba-4c1fa8da69ec)
   )
-  (text "3V3 Requirements:\nTUSB522 - 100mA\nCYUSB3304 - 101mA\nPI3USB302−A - 0.2mA"
-    (at 171.45 137.16 0)
+  (text "3V3 Requirements:\nTUSB522 - 100mA\nCYUSB3304 - 101mA\nPI3USB302−A - 0.2mA\nRTL8153B - 70mA"
+    (at 171.45 135.89 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a82fbba-6340-4881-8199-1db726ffb53b)
   )
@@ -1474,7 +1474,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a781e4cf-0c04-47fe-9e5d-907b3903a726)
   )
-  (text "P_dissip = (V_IN - V_OUT) * I_OUT\n         = (5 - 3.3) * 0.2\n         = 0.34W\n\nψ_JT = 28.4C/W\nψ_JB = 63.8/W\nTemperature rise junction = 28.4 * 0.34 = 10deg\nTemperature rise board = 63.8 * 0.34 = 21deg"
+  (text "P_dissip = (V_IN - V_OUT) * I_OUT\n         = (5 - 3.3) * 0.3\n         = 0.51W\n\nψ_JT = 28.4C/W\nψ_JB = 63.8/W\nTemperature rise junction = 28.4 * 0.51 = 14deg\nTemperature rise board = 63.8 * 0.51 = 32deg"
     (at 204.47 132.08 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a8c04674-76b9-43ec-b4d9-6d1114163d0c)
