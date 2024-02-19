@@ -907,199 +907,6 @@
         )
       )
     )
-    (symbol "RTL8153B-VB-CG_1" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -17.78 29.21 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "RTL8153-VB-CG" (at 25.4 29.21 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "CakeUSB:RTL8153B-VB-CG" (at 39.37 39.37 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "RTL8153B-VB-CG_1_1_1"
-        (rectangle (start -22.86 26.67) (end 22.86 -26.67)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -12.7 -29.21 90) (length 2.54)
-          (name "MDIP0" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.7 -29.21 90) (length 2.54)
-          (name "MDIN3" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 25.4 -6.35 180) (length 2.54)
-          (name "U3SSTXN" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 25.4 -3.81 180) (length 2.54)
-          (name "U3SSTXP" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 25.4 0 180) (length 2.54)
-          (name "U3SSRXN" (effects (font (size 1.27 1.27))))
-          (number "15" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 25.4 2.54 180) (length 2.54)
-          (name "U3SSRXP" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 6.35 180) (length 2.54)
-          (name "U2DM" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 8.89 180) (length 2.54)
-          (name "U2DP" (effects (font (size 1.27 1.27))))
-          (number "18" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.16 -29.21 90) (length 2.54)
-          (name "MDIN0" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -25.4 15.24 0) (length 2.54)
-          (name "EEDO/LED2/SPISDO/LANWAKEB/GPIO" (effects (font (size 1.27 1.27))))
-          (number "24" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -25.4 12.7 0) (length 2.54)
-          (name "EEDI/SPISDI/ENSWREG" (effects (font (size 1.27 1.27))))
-          (number "25" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -25.4 -5.08 0) (length 2.54)
-          (name "EESK/LED1/SPISCK" (effects (font (size 1.27 1.27))))
-          (number "30" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -25.4 -8.89 0) (length 2.54)
-          (name "EECS" (effects (font (size 1.27 1.27))))
-          (number "31" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -25.4 -12.7 0) (length 2.54)
-          (name "LED0/SPICSB" (effects (font (size 1.27 1.27))))
-          (number "32" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -2.54 29.21 270) (length 2.54)
-          (name "CKXTAL1" (effects (font (size 1.27 1.27))))
-          (number "35" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 29.21 270) (length 2.54)
-          (name "CKXTAL2" (effects (font (size 1.27 1.27))))
-          (number "36" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -25.4 2.54 0) (length 2.54)
-          (name "RSET" (effects (font (size 1.27 1.27))))
-          (number "38" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -29.21 90) (length 2.54)
-          (name "MDIP1" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 -29.21 90) (length 2.54)
-          (name "MDIN1" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -29.21 90) (length 2.54)
-          (name "MDIP2" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -29.21 90) (length 2.54)
-          (name "MDIN2" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 -29.21 90) (length 2.54)
-          (name "MDIP3" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "RTL8153B-VB-CG_1_2_1"
-        (rectangle (start -16.51 26.67) (end 16.51 -26.67)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (pin power_in line (at -19.05 -3.81 0) (length 2.54)
-          (name "AVDD33" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 19.05 -13.97 180) (length 2.54)
-          (name "U3VDD10" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 19.05 -10.16 180) (length 2.54)
-          (name "U2VDD10" (effects (font (size 1.27 1.27))))
-          (number "19" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at -19.05 -7.62 0) (length 2.54)
-          (name "AVDD33_REGOUT" (effects (font (size 1.27 1.27))))
-          (number "20" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -19.05 16.51 0) (length 2.54)
-          (name "VDD5" (effects (font (size 1.27 1.27))))
-          (number "21" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 19.05 -2.54 180) (length 2.54)
-          (name "DVDD10_UPS_REGOUT" (effects (font (size 1.27 1.27))))
-          (number "22" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -19.05 3.81 0) (length 2.54)
-          (name "DVDD33" (effects (font (size 1.27 1.27))))
-          (number "23" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -19.05 7.62 0) (length 2.54)
-          (name "VDDREG33" (effects (font (size 1.27 1.27))))
-          (number "26" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -19.05 20.32 0) (length 2.54)
-          (name "VDDREG5" (effects (font (size 1.27 1.27))))
-          (number "27" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 19.05 -6.35 180) (length 2.54)
-          (name "REGOUT_1V" (effects (font (size 1.27 1.27))))
-          (number "28" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -1.27 -29.21 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "29" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 19.05 5.08 180) (length 2.54)
-          (name "AVDD10" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -19.05 0 0) (length 2.54)
-          (name "DVDD33" (effects (font (size 1.27 1.27))))
-          (number "33" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 19.05 1.27 180) (length 2.54)
-          (name "DVDD10" (effects (font (size 1.27 1.27))))
-          (number "34" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 19.05 12.7 180) (length 2.54)
-          (name "AVDD10" (effects (font (size 1.27 1.27))))
-          (number "37" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -19.05 -11.43 0) (length 2.54)
-          (name "AVDD33" (effects (font (size 1.27 1.27))))
-          (number "39" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -19.05 -15.24 0) (length 2.54)
-          (name "AVDD33" (effects (font (size 1.27 1.27))))
-          (number "40" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 1.27 -29.21 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "41" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 19.05 8.89 180) (length 2.54)
-          (name "AVDD10" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2412,7 +2219,7 @@
   (symbol (lib_id "Device:R_Small") (at 40.64 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ef8939a-3017-4f52-82e3-56f1017a8839)
-    (property "Reference" "R49" (at 40.64 54.61 90)
+    (property "Reference" "R41" (at 40.64 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 40.64 59.69 90)
@@ -2429,7 +2236,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R49") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -2438,7 +2245,7 @@
   (symbol (lib_id "Device:C_Small") (at 257.81 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 213d920e-7a60-4619-9462-a4e03af3406c)
-    (property "Reference" "C145" (at 260.35 83.8263 0)
+    (property "Reference" "C137" (at 260.35 83.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 260.35 86.3663 0)
@@ -2455,7 +2262,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C145") (unit 1)
+          (reference "C137") (unit 1)
         )
       )
     )
@@ -2464,7 +2271,7 @@
   (symbol (lib_id "power:GND") (at 146.05 43.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c7b8cfc-8488-4d97-9b63-37fd0177b061)
-    (property "Reference" "#PWR0100" (at 146.05 36.83 0)
+    (property "Reference" "#PWR095" (at 146.05 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 39.37 0)
@@ -2480,7 +2287,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -2489,7 +2296,7 @@
   (symbol (lib_id "Device:C_Small") (at 156.21 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f04bef2-f9ea-47cb-93da-a6031d87e9e3)
-    (property "Reference" "C140" (at 158.75 49.53 0)
+    (property "Reference" "C134" (at 158.75 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 158.75 52.0763 0)
@@ -2506,7 +2313,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C140") (unit 1)
+          (reference "C134") (unit 1)
         )
       )
     )
@@ -2515,7 +2322,7 @@
   (symbol (lib_id "power:GND") (at 148.59 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f9142ae-1027-4725-b00d-f97e54841988)
-    (property "Reference" "#PWR0104" (at 148.59 158.75 0)
+    (property "Reference" "#PWR0102" (at 148.59 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 157.48 0)
@@ -2531,7 +2338,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -2540,7 +2347,7 @@
   (symbol (lib_id "Device:C_Small") (at 176.53 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35c3d4c7-ff25-48e0-9b18-3344eb5c2449)
-    (property "Reference" "C138" (at 179.07 95.2563 0)
+    (property "Reference" "C145" (at 179.07 95.2563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 179.07 97.7963 0)
@@ -2557,7 +2364,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C138") (unit 1)
+          (reference "C145") (unit 1)
         )
       )
     )
@@ -2588,10 +2395,10 @@
     )
   )
 
-  (symbol (lib_name "RTL8153B-VB-CG_1") (lib_id "CakeUSB:RTL8153B-VB-CG") (at 85.09 69.85 0) (unit 1)
+  (symbol (lib_id "CakeUSB:RTL8153B-VB-CG") (at 85.09 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d845685-c5dc-4444-9d2f-7b57bd9cca72)
-    (property "Reference" "U14" (at 109.22 41.91 0)
+    (property "Reference" "U15" (at 109.22 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RTL8153-VB-CG" (at 113.03 97.79 0)
@@ -2647,7 +2454,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "U14") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -2656,7 +2463,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.23 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40586789-2814-4768-8276-24ffa239a15e)
-    (property "Reference" "R44" (at 62.23 144.78 90)
+    (property "Reference" "R47" (at 62.23 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "75" (at 62.23 149.86 90)
@@ -2673,7 +2480,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R44") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -2682,7 +2489,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40e61e97-4161-4f4e-9086-a361676bbfdf)
-    (property "Reference" "C137" (at 166.37 95.2563 0)
+    (property "Reference" "C144" (at 166.37 95.2563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 166.37 97.7963 0)
@@ -2699,7 +2506,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C137") (unit 1)
+          (reference "C144") (unit 1)
         )
       )
     )
@@ -2708,7 +2515,7 @@
   (symbol (lib_id "power:GND") (at 275.59 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4dcdf0c8-c4a9-40f0-8a9d-c89976e7d54b)
-    (property "Reference" "#PWR0102" (at 275.59 104.14 0)
+    (property "Reference" "#PWR099" (at 275.59 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 101.6 0)
@@ -2724,7 +2531,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -2733,7 +2540,7 @@
   (symbol (lib_id "Device:C_Small") (at 173.99 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e9b44fe-e07b-486b-b7bc-7033cceadf38)
-    (property "Reference" "C129" (at 176.53 36.83 0)
+    (property "Reference" "C128" (at 176.53 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 176.53 39.37 0)
@@ -2750,7 +2557,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C129") (unit 1)
+          (reference "C128") (unit 1)
         )
       )
     )
@@ -2759,7 +2566,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 541481f4-c85b-4ea1-aa68-a4c2e3e208f8)
-    (property "Reference" "C134" (at 148.59 49.53 0)
+    (property "Reference" "C133" (at 148.59 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 148.59 52.0763 0)
@@ -2776,7 +2583,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C134") (unit 1)
+          (reference "C133") (unit 1)
         )
       )
     )
@@ -2785,7 +2592,7 @@
   (symbol (lib_id "Device:R_Small") (at 55.88 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 636c7d19-fa27-4568-9173-d61fea87f83c)
-    (property "Reference" "R43" (at 55.88 140.97 90)
+    (property "Reference" "R46" (at 55.88 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "75" (at 55.88 146.05 90)
@@ -2802,7 +2609,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R43") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -2811,7 +2618,7 @@
   (symbol (lib_id "power:+5V") (at 167.64 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 684a781f-9525-4915-be39-d0225425cb74)
-    (property "Reference" "#PWR071" (at 167.64 43.18 0)
+    (property "Reference" "#PWR093" (at 167.64 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 167.64 34.29 0)
@@ -2827,7 +2634,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -2836,7 +2643,7 @@
   (symbol (lib_id "Device:C") (at 67.31 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ed73722-d8e2-4783-b248-1205d467d06b)
-    (property "Reference" "C53" (at 71.12 25.4 0)
+    (property "Reference" "C126" (at 71.12 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27p" (at 71.12 27.94 0)
@@ -2853,7 +2660,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C53") (unit 1)
+          (reference "C126") (unit 1)
         )
       )
     )
@@ -2862,7 +2669,7 @@
   (symbol (lib_id "Device:C") (at 96.52 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d3a7cdc-eb85-490e-ad84-06087f442cf6)
-    (property "Reference" "C54" (at 100.33 25.4 0)
+    (property "Reference" "C127" (at 100.33 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27p" (at 100.33 27.94 0)
@@ -2879,7 +2686,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C54") (unit 1)
+          (reference "C127") (unit 1)
         )
       )
     )
@@ -2888,7 +2695,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f980296-9a4f-4163-86f6-06fff193b190)
-    (property "Reference" "C151" (at 143.51 144.78 90)
+    (property "Reference" "C149" (at 143.51 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 143.51 149.86 90)
@@ -2905,7 +2712,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C151") (unit 1)
+          (reference "C149") (unit 1)
         )
       )
     )
@@ -2914,7 +2721,7 @@
   (symbol (lib_id "power:GND") (at 46.99 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 888a37ad-513a-40a7-95ed-59fc9c84a46c)
-    (property "Reference" "#PWR0105" (at 46.99 115.57 0)
+    (property "Reference" "#PWR0101" (at 46.99 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 114.3 0)
@@ -2930,7 +2737,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -2939,7 +2746,7 @@
   (symbol (lib_id "Device:C_Small") (at 179.07 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cbaf256-257e-4423-a760-744ce6fe03e2)
-    (property "Reference" "C135" (at 181.61 86.3663 0)
+    (property "Reference" "C139" (at 181.61 86.3663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 181.61 88.9063 0)
@@ -2956,7 +2763,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C135") (unit 1)
+          (reference "C139") (unit 1)
         )
       )
     )
@@ -2965,7 +2772,7 @@
   (symbol (lib_id "Device:C_Small") (at 242.57 43.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cc03a1f-665e-45eb-b511-5a08411698d1)
-    (property "Reference" "C132" (at 250.19 41.91 0)
+    (property "Reference" "C130" (at 250.19 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 247.65 44.45 0)
@@ -2982,7 +2789,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C132") (unit 1)
+          (reference "C130") (unit 1)
         )
       )
     )
@@ -2991,7 +2798,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ed9d8d9-b39f-4681-957a-4ac6478ea925)
-    (property "Reference" "R47" (at 101.6 180.34 90)
+    (property "Reference" "R48" (at 101.6 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 101.6 185.42 90)
@@ -3008,7 +2815,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R47") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -3017,7 +2824,7 @@
   (symbol (lib_id "Device:R_Small") (at 40.64 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96b28cdd-6942-4f86-83d4-b82ddea0b62e)
-    (property "Reference" "R45" (at 40.64 64.77 90)
+    (property "Reference" "R42" (at 40.64 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2k49_1%" (at 40.64 69.85 90)
@@ -3034,7 +2841,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R45") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -3043,7 +2850,7 @@
   (symbol (lib_id "power:GND") (at 265.43 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 970e0f08-ae40-4626-9d14-63d32f1175d7)
-    (property "Reference" "#PWR0101" (at 265.43 38.1 0)
+    (property "Reference" "#PWR096" (at 265.43 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 40.64 0)
@@ -3059,7 +2866,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -3068,7 +2875,7 @@
   (symbol (lib_id "power:GND") (at 63.5 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b32f5a7-5c9b-478f-88e9-8a05981ae64c)
-    (property "Reference" "#PWR098" (at 63.5 189.23 0)
+    (property "Reference" "#PWR0104" (at 63.5 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 187.96 0)
@@ -3084,7 +2891,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -3093,7 +2900,7 @@
   (symbol (lib_id "power:GND") (at 27.94 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bf53d18-55ad-4cc9-ab5f-c7237a9ad063)
-    (property "Reference" "#PWR070" (at 27.94 73.66 0)
+    (property "Reference" "#PWR097" (at 27.94 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 27.94 72.39 0)
@@ -3109,7 +2916,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -3118,7 +2925,7 @@
   (symbol (lib_id "Device:R_Small") (at 40.64 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f0f2312-85a0-4ffe-90c5-20ff5a1c263b)
-    (property "Reference" "R46" (at 40.64 76.2 90)
+    (property "Reference" "R43" (at 40.64 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 40.64 81.28 90)
@@ -3135,7 +2942,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R46") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -3144,7 +2951,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a053825c-3d3e-43b9-af43-4f23e9fff29b)
-    (property "Reference" "C149" (at 143.51 172.72 90)
+    (property "Reference" "C152" (at 143.51 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 143.51 177.8 90)
@@ -3161,7 +2968,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C149") (unit 1)
+          (reference "C152") (unit 1)
         )
       )
     )
@@ -3170,7 +2977,7 @@
   (symbol (lib_id "Device:C_Small") (at 247.65 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a26f7608-b4ad-47d7-825b-8f402418db8b)
-    (property "Reference" "C144" (at 250.19 83.8263 0)
+    (property "Reference" "C136" (at 250.19 83.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 250.19 86.3663 0)
@@ -3187,7 +2994,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C144") (unit 1)
+          (reference "C136") (unit 1)
         )
       )
     )
@@ -3196,7 +3003,7 @@
   (symbol (lib_id "power:GND") (at 242.57 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a46368e1-3003-4afa-8692-9a9f5622ca8a)
-    (property "Reference" "#PWR075" (at 242.57 34.29 0)
+    (property "Reference" "#PWR094" (at 242.57 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 35.56 0)
@@ -3212,7 +3019,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -3221,7 +3028,7 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a609aad8-5ce6-42fa-a08c-be8ecaa01645)
-    (property "Reference" "R30" (at 44.45 133.35 90)
+    (property "Reference" "R44" (at 44.45 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "75" (at 44.45 138.43 90)
@@ -3238,7 +3045,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R30") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -3247,7 +3054,7 @@
   (symbol (lib_id "CakeUSB:RTL8153B-VB-CG") (at 214.63 66.04 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a83c9082-0ac1-40c3-8e16-5e7f2e99473e)
-    (property "Reference" "U14" (at 232.41 36.83 0)
+    (property "Reference" "U15" (at 232.41 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RTL8153-VB-CG" (at 229.87 95.25 0)
@@ -3303,7 +3110,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "U14") (unit 2)
+          (reference "U15") (unit 2)
         )
       )
     )
@@ -3312,7 +3119,7 @@
   (symbol (lib_id "Device:C_Small") (at 186.69 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid accf3b7c-e246-4c7d-a207-d6213200fed4)
-    (property "Reference" "C139" (at 189.23 95.2563 0)
+    (property "Reference" "C146" (at 189.23 95.2563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 189.23 97.7963 0)
@@ -3329,7 +3136,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C139") (unit 1)
+          (reference "C146") (unit 1)
         )
       )
     )
@@ -3338,7 +3145,7 @@
   (symbol (lib_id "Device:C_Small") (at 255.27 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3dd2009-9137-4b01-9930-c9d16d67e046)
-    (property "Reference" "C147" (at 257.81 92.7163 0)
+    (property "Reference" "C142" (at 257.81 92.7163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 257.81 95.2563 0)
@@ -3355,7 +3162,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C147") (unit 1)
+          (reference "C142") (unit 1)
         )
       )
     )
@@ -3364,7 +3171,7 @@
   (symbol (lib_id "power:GND") (at 157.48 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7dacd6d-dccf-4151-978d-bc8eec98e9f6)
-    (property "Reference" "#PWR099" (at 157.48 107.95 0)
+    (property "Reference" "#PWR0100" (at 157.48 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 105.41 0)
@@ -3380,7 +3187,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -3437,7 +3244,7 @@
   (symbol (lib_id "Device:C_Small") (at 189.23 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf5db5d4-e45a-4c02-971d-5e2a705bb162)
-    (property "Reference" "C56" (at 191.77 86.3663 0)
+    (property "Reference" "C140" (at 191.77 86.3663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 191.77 88.9063 0)
@@ -3454,7 +3261,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C56") (unit 1)
+          (reference "C140") (unit 1)
         )
       )
     )
@@ -3463,7 +3270,7 @@
   (symbol (lib_id "Device:R_Small") (at 76.2 189.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7ae238c-a38c-4ddf-9c8f-ae2653bc874f)
-    (property "Reference" "R48" (at 73.66 189.23 90)
+    (property "Reference" "R49" (at 73.66 189.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 78.74 189.23 90)
@@ -3480,7 +3287,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R48") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
@@ -3489,7 +3296,7 @@
   (symbol (lib_id "power:GND") (at 173.99 30.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc771e9c-4d6d-42e4-a2d6-2526e4dace3e)
-    (property "Reference" "#PWR072" (at 173.99 24.13 0)
+    (property "Reference" "#PWR090" (at 173.99 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 26.67 0)
@@ -3505,7 +3312,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -3514,7 +3321,7 @@
   (symbol (lib_id "power:GND") (at 97.79 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce4824ce-6e7c-4669-9d9f-784c5eb1334e)
-    (property "Reference" "#PWR095" (at 97.79 191.77 0)
+    (property "Reference" "#PWR0105" (at 97.79 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 190.5 0)
@@ -3530,7 +3337,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -3539,7 +3346,7 @@
   (symbol (lib_id "power:GND") (at 214.63 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce4db364-aa5e-4356-9a38-0dc6f7d949ac)
-    (property "Reference" "#PWR069" (at 214.63 104.14 0)
+    (property "Reference" "#PWR098" (at 214.63 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 102.87 0)
@@ -3555,7 +3362,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -3592,7 +3399,7 @@
   (symbol (lib_id "Device:C_Small") (at 265.43 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6d3fdfd-d9c0-4ef9-be54-c98738bb9849)
-    (property "Reference" "C141" (at 267.97 48.26 0)
+    (property "Reference" "C132" (at 267.97 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 267.97 50.8063 0)
@@ -3609,7 +3416,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C141") (unit 1)
+          (reference "C132") (unit 1)
         )
       )
     )
@@ -3618,7 +3425,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 167.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8ae674c-e029-4f2a-a286-dbea2a9307f5)
-    (property "Reference" "C142" (at 143.51 165.1 90)
+    (property "Reference" "C151" (at 143.51 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 143.51 170.18 90)
@@ -3635,7 +3442,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C142") (unit 1)
+          (reference "C151") (unit 1)
         )
       )
     )
@@ -3644,7 +3451,7 @@
   (symbol (lib_id "Device:C_Small") (at 167.64 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcb66001-bb4b-4518-8d9b-5276886dbcb4)
-    (property "Reference" "C136" (at 170.18 86.3663 0)
+    (property "Reference" "C138" (at 170.18 86.3663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 170.18 88.9063 0)
@@ -3661,7 +3468,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C136") (unit 1)
+          (reference "C138") (unit 1)
         )
       )
     )
@@ -3670,13 +3477,13 @@
   (symbol (lib_id "Device:C") (at 38.1 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0a91279-8f9e-43d6-97aa-b90c1a337b2e)
-    (property "Reference" "C55" (at 41.91 151.13 0)
+    (property "Reference" "C150" (at 41.91 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n/2KV" (at 41.91 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 39.0652 156.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 39.0652 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 152.4 0)
@@ -3687,7 +3494,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C55") (unit 1)
+          (reference "C150") (unit 1)
         )
       )
     )
@@ -3696,7 +3503,7 @@
   (symbol (lib_id "Device:C_Small") (at 265.43 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3d0cf08-13af-48b9-8020-0e4d76dddc67)
-    (property "Reference" "C148" (at 267.97 92.7163 0)
+    (property "Reference" "C143" (at 267.97 92.7163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 267.97 95.2563 0)
@@ -3713,7 +3520,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C148") (unit 1)
+          (reference "C143") (unit 1)
         )
       )
     )
@@ -3722,7 +3529,7 @@
   (symbol (lib_id "Device:C_Small") (at 57.15 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e74f4db4-6344-4d7e-85bc-a1e674cc7ed2)
-    (property "Reference" "C152" (at 57.15 104.14 90)
+    (property "Reference" "C147" (at 57.15 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 57.15 109.22 90)
@@ -3739,7 +3546,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C152") (unit 1)
+          (reference "C147") (unit 1)
         )
       )
     )
@@ -3748,7 +3555,7 @@
   (symbol (lib_id "Device:C_Small") (at 245.11 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7c11734-432b-4292-9787-94a21405dacb)
-    (property "Reference" "C146" (at 247.65 92.7163 0)
+    (property "Reference" "C141" (at 247.65 92.7163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 247.65 95.2563 0)
@@ -3765,7 +3572,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C146") (unit 1)
+          (reference "C141") (unit 1)
         )
       )
     )
@@ -3774,7 +3581,7 @@
   (symbol (lib_id "power:GND") (at 67.31 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e88802f2-5213-4c75-a968-45862cbd75b8)
-    (property "Reference" "#PWR035" (at 67.31 38.1 0)
+    (property "Reference" "#PWR091" (at 67.31 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 36.83 0)
@@ -3790,7 +3597,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -3799,7 +3606,7 @@
   (symbol (lib_id "Device:C_Small") (at 237.49 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee36002f-0520-4afa-bf7e-0068b33c54a7)
-    (property "Reference" "C143" (at 240.03 83.8263 0)
+    (property "Reference" "C135" (at 240.03 83.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 240.03 86.3663 0)
@@ -3816,7 +3623,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C143") (unit 1)
+          (reference "C135") (unit 1)
         )
       )
     )
@@ -3825,7 +3632,7 @@
   (symbol (lib_id "Device:C_Small") (at 184.15 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0a5e792-b52f-441e-8bba-5d0ec1ef94c7)
-    (property "Reference" "C133" (at 186.69 36.8363 0)
+    (property "Reference" "C129" (at 186.69 36.8363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 186.69 39.3763 0)
@@ -3842,7 +3649,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C133") (unit 1)
+          (reference "C129") (unit 1)
         )
       )
     )
@@ -3851,7 +3658,7 @@
   (symbol (lib_id "power:GND") (at 96.52 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f10fa7bd-e3bc-447b-8bea-5c0116426695)
-    (property "Reference" "#PWR068" (at 96.52 38.1 0)
+    (property "Reference" "#PWR092" (at 96.52 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 36.83 0)
@@ -3867,7 +3674,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -3876,7 +3683,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f71fa9fa-9ddb-4da6-80fd-cf4872e2394b)
-    (property "Reference" "C150" (at 143.51 137.16 90)
+    (property "Reference" "C148" (at 143.51 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 143.51 142.24 90)
@@ -3893,7 +3700,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "C150") (unit 1)
+          (reference "C148") (unit 1)
         )
       )
     )
@@ -3965,7 +3772,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd4a15bd-3752-4f13-b58d-598f84d12450)
-    (property "Reference" "R42" (at 49.53 137.16 90)
+    (property "Reference" "R45" (at 49.53 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "75" (at 49.53 142.24 90)
@@ -3982,7 +3789,7 @@
     (instances
       (project "USBHUB"
         (path "/d5edc647-9ac3-4ac1-ab8a-57c77be3f4d3/e5ff48c6-4ab4-44af-a471-2f3943b300c6"
-          (reference "R42") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
