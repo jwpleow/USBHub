@@ -449,7 +449,24 @@
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.11,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "EthernetDiffPairs",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.14,
+        "via_diameter": 0.7,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -470,18 +487,6 @@
     "netclass_patterns": [
       {
         "netclass": "USBDiffPairs",
-        "pattern": "*-"
-      },
-      {
-        "netclass": "USBDiffPairs",
-        "pattern": "*+"
-      },
-      {
-        "netclass": "USBDiffPairs",
-        "pattern": "*M"
-      },
-      {
-        "netclass": "USBDiffPairs",
         "pattern": "*DP"
       },
       {
@@ -489,8 +494,44 @@
         "pattern": "*XP"
       },
       {
-        "netclass": "Default",
+        "netclass": "USBDiffPairs",
         "pattern": "*DN"
+      },
+      {
+        "netclass": "USBDiffPairs",
+        "pattern": "*XN"
+      },
+      {
+        "netclass": "EthernetDiffPairs",
+        "pattern": "/05*ETH*+"
+      },
+      {
+        "netclass": "EthernetDiffPairs",
+        "pattern": "/05*ETH*-"
+      },
+      {
+        "netclass": "EthernetDiffPairs",
+        "pattern": "/05*X*+"
+      },
+      {
+        "netclass": "EthernetDiffPairs",
+        "pattern": "/05*X*-"
+      },
+      {
+        "netclass": "USBDiffPairs",
+        "pattern": "*RX*+"
+      },
+      {
+        "netclass": "USBDiffPairs",
+        "pattern": "*RX*-"
+      },
+      {
+        "netclass": "USBDiffPairs",
+        "pattern": "*TX*+"
+      },
+      {
+        "netclass": "USBDiffPairs",
+        "pattern": "*TX*-"
       }
     ]
   },
