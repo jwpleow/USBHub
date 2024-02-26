@@ -189,6 +189,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
           "diameter": 0.4,
           "drill": 0.2
         },
@@ -532,6 +536,18 @@
       {
         "netclass": "USBDiffPairs",
         "pattern": "*TX*-"
+      },
+      {
+        "netclass": "USBDiffPairs",
+        "pattern": "*TX_A_*"
+      },
+      {
+        "netclass": "USBDiffPairs",
+        "pattern": "*TX_B_*"
+      },
+      {
+        "netclass": "USBDiffPairs",
+        "pattern": "*RX_B_*"
       }
     ]
   },
