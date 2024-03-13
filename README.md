@@ -42,31 +42,34 @@ https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
 | CYUSB3304-68LTXCT | USB 3.2 Gen1 4-port Hub Controller | [Datasheet](https://www.infineon.com/dgdl/Infineon-CYUSB330x_CYUSB331x_CYUSB332x_HX3_USB_3.0_Hub-DataSheet-v21_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ecb53f644b8) | [JLCPCB](https://jlcpcb.com/partdetail/CypressSemicon-CYUSB330468LTXCT/C914921) |
 | TUSB522PPRGER | 5Gbps USB3.0 redriver | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb522p.pdf) | [JLCPCB](https://jlcpcb.com/parts/componentSearch?searchTxt=TUSB522P)  |
 | PI3USB302-AZBEX | USB 3.0 Passive mux | [Datasheet](https://www.diodes.com/assets/Datasheets/PI3USB302-A.pdf) |  [JLCPCB](https://jlcpcb.com/partdetail/DiodesIncorporated-PI3USB302AZBEX/C500787) |
+| TXM26M0004322CBCDO00T | Crystal for USB Hub Controller 26MHz +- 10ppm 9pF | | [JLCPCB](https://jlcpcb.com/partdetail/Yajingxin-TXM26M0004322CBCDO00T/C362346) |
 <!-- | TUSB212IRWBR | USB 2.0 Signal Conditioner | [Datasheet](https://www.ti.com/lit/ds/symlink/tusb212.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TUSB212IRWBR/C2674396) | -->
 
 ### USB Ancillaries
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
 | GT-USB-7052 | USB Type-C Receptacle USB3.1 5A 24 Pins Vertical SMD | [Datasheet](https://www.dg-switch.com/uploads/soft/200510/GT-USB-7052.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/gswitch-GT_USB7052/C963223) |
-| TI ESD122DMXR | ESD Protection TVS for differential pairs | [Datasheet](https://www.ti.com/lit/ds/symlink/esd122.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-ESD122DMXR/C544474)  |
+| PUSB3FR4Z | ESD Protection for differential pairs | [Datasheet](https://assets.nexperia.com/documents/data-sheet/PUSB3FR4.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/Nexperia-PUSB3FR4Z/C503418)  |
 | TI TVS2200DRVR | ESD Protection 28V for VBUS | [Datasheet](https://www.ti.com/lit/ds/symlink/tvs2200.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TVS2200DRVR/C523793) |
 | TPS2069CDBVR | 1.5A Current limiting power distribution switch for USB DFP | [Datasheet](https://www.ti.com/lit/ds/symlink/tps2001c.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPS2069CDBVR/C181752) |
 | ESD5B5.0ST1G | 5.8V ESD Protection for DFP VBUS | [Datasheet](https://www.onsemi.com/pdf/datasheet/esd5b5.0st1-d.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/Onsemi-ESD5B50ST1G/C93623) | 
+| 484080003 | USB Type A Vertical | | [JLCPCB](https://jlcpcb.com/partdetail/Molex-484080003/C587839) |
 
 ### Ethernet USB 
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
-| RTL8153B-VB-CG | Ethernet-USB controller | []() | [JLCPCB](https://jlcpcb.com/partdetail/RealtekSemicon-RTL8153B_VBCG/C2802072)  |
+| RTL8153B-VB-CG | Ethernet-USB controller |  | [JLCPCB](https://jlcpcb.com/partdetail/RealtekSemicon-RTL8153B_VBCG/C2802072)  |
 | G24P02S | RJ45 Transformer | | [JLCPCB](https://jlcpcb.com/partdetail/Jasn-G24P02S/C2827276)  |
 | 7D025000Q01 | 25MHz Crystal, 18pF +- 10ppm | | [JLCPCB](https://jlcpcb.com/partdetail/Hd-7D025000Q01/C648942)|
-
+| RC01931 | Ethernet Port Vertical | | [JLCPCB](https://jlcpcb.com/partdetail/Rch-RC01931/C708651) |
 
 ### Others
 | Part Name | Description | Datasheet | JLCPCB |
 | - | - | - | - |
-| TXM26M0004322CBCDO00T | Crystal for USB Hub Controller 26MHz +- 10ppm 9pF | | [JLCPCB](https://jlcpcb.com/partdetail/Yajingxin-TXM26M0004322CBCDO00T/C362346) |
 | KT-0805G | LED Green | | [JLCPCB](https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0805G/C2297) |
 | BLM21PG221SN1D | Ferrite Bead 2A @ 85C | | [JLCPCB](https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840) |
+| WJ103-5.0-2P | 2P 5mm screw terminal angled | | [JLCPCB](https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ103_5_02P/C8439 )  |
+| RVT1V151M0607 | 150u Aluminium Electrolytic Capacitor | | [JLCPCB](https://jlcpcb.com/partdetail/Roqang-RVT1V151M0607/C3032176) |
  <!-- | TI TPDxE05U06 | ESD Protection TVS 28V for CC / DP / DM?  | [Datasheet](https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf) | [JLCPCB](https://jlcpcb.com/partdetail/TexasInstruments-TPD4E05U06DQAR/C138714)  -->
 
 ## Buck Converter to 5V
