@@ -1,5 +1,10 @@
+## Impedance Control
+Impedance control was done assuming manufacturing using JLCPCB 6 layer PCB JLC06161H-7628
+90Ohms Diff Pair (usb) -> 0.127mm spacing, 0.16mm trace width
+100Ohms Diff Pair (ethernet) -> 0.127mm spacing, 0.11mm trace width
 
-
+## Min vias
+We require 0.15mm/0.25mm vias ($$$$$$$$$$$$)
 
 ### Red LED for PD fault
 KT-0603R
@@ -78,16 +83,16 @@ https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
 ## USB Hub Design Checklist
 1 Are the decoupling capacitors and bulk capacitors connected as per Figure 1 and Figure 2? Y
 2 Does the crystal meet the specification in this application note?  Y
-3 Are all DS ports provided with 150-µF bulk capacitors?
-4 Do the Power-on-Reset RC components meet the minimum reset time (5 ms)?
-5 Do the USB precision resistors have 1% tolerance? 
-6 Are the I2C lines provided with pull-up resistors to the 3.3-V domain?
-7 Do the LEDs connected to the pin-strap pins have a 10-kΩ parallel resistor?
+3 Are all DS ports provided with 150-µF bulk capacitors? Y
+4 Do the Power-on-Reset RC components meet the minimum reset time (5 ms)? Y
+5 Do the USB precision resistors have 1% tolerance?  Y
+6 Are the I2C lines provided with pull-up resistors to the 3.3-V domain? Y
+7 Do the LEDs connected to the pin-strap pins have a 10-kΩ parallel resistor? Y
 8
 Is it ensured that the DS port power switch has a MOSFET connected to the OUTPUT pin or selected a power switch with
-fast discharge?
-9 Is the VBUS_US pin provided with a 10-kΩ voltage divider network?
-10 Is the US port provided with 1-µF bulk capacitor?
+fast discharge? Y
+9 Is the VBUS_US pin provided with a 10-kΩ voltage divider network? Y
+10 Is the US port provided with 1-µF bulk capacitor? N
 11 Are all port shields terminated properly?
 12 Are the ferrite beads connected as shown in Figure 1 and Figure 2?
 13

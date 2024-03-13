@@ -1108,10 +1108,10 @@
     (uuid fd7e3a7d-35ec-49b7-9882-639c2aa2a549)
   )
 
+  (no_connect (at 31.75 119.38) (uuid 07329b23-8b1d-4d89-8c6f-368ce10cfd61))
   (no_connect (at 54.61 109.22) (uuid 332b80ab-3ead-47e5-bb69-46581ac710ce))
   (no_connect (at 186.69 135.89) (uuid 5534dfaf-382f-4c40-b4c0-51120de1f199))
   (no_connect (at 184.15 135.89) (uuid a2b2e57f-3f65-4c16-bd83-059daef74bf3))
-  (no_connect (at 31.75 119.38) (uuid e0f32be4-ac4f-4063-9379-69b49c7fab91))
   (no_connect (at 54.61 111.76) (uuid ee3aec23-6a0e-4d24-9e77-200926b9b081))
 
   (wire (pts (xy 189.23 156.21) (xy 190.5 156.21))
@@ -2135,6 +2135,11 @@
   (text "USB3 Redriver" (at 203.2 139.7 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 524b5c9a-3737-4a72-a9d0-3d52e291481e)
+  )
+  (text "Hmmm...\nhttps://electronics.stackexchange.com/questions/290777/usb-3-0-hub-shield-connection\n\nTo me, it should be the most upstream (battery side) board that connects the shield to GND via some parallel LC \nconnection"
+    (at -115.57 132.08 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 65aa8701-68de-4678-940d-8c7a50b33807)
   )
   (text "Should I add 2.2Ohm R_ESD and the caps for the RX lines?\n\"An ESD clamp voltage >4V may require a R_ESD on each differential pin, \nwhich should be placed near the USB connector.\""
     (at 101.6 222.25 0)
